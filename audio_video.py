@@ -21,7 +21,7 @@ def train_model():
     current_directory = os.getcwd()
 
     # Creating the full path to the image file
-    image_path = os.path.join(current_directory, 'images', 'Pszczolaskrzydelka.jpg')
+    image_path = os.path.join(current_directory, 'Pszczolaskrzydelka.jpg')
 
     # Loading the image
     image = cv2.imread(image_path)
